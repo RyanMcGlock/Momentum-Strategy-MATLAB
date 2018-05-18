@@ -1,8 +1,11 @@
 # Momentum-Strategy-MATLAB-
-##### Analysis of risk adjusted momentum strategy
-```matlab
-%PLEASE SEE Quant_MomentumReport FOR RESULTS AND ANALYSIS
+##### Goal of the project was to analyse momentum as a factor in the UK with 1605 funds. It was applied by the use of fama macbeth (cross-sectional) regressions in three ways.
+##### 1) Typical OLS form, regressing momemtum factor returns on the day ahead returns
+##### 2) GLS form, where I included a Market Weight matrix for each company in the regressions
+##### 3) Using a Risk adjusted CoVariance matrix, a Ledoit and Wolf shrinkage approach was used to calculate a CoVaraince matrix with less estimation error
+##### All files and attached and displayed below, note the report with all methods and results is attached - Quant_MomentumReport
 
+```matlab
 %Momemtum Strategy Analysis
 %Three Types of fama-MacBeth regression used
 %All functions used are attached, but also included at the bottom of this
