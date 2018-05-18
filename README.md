@@ -46,9 +46,9 @@ gammaStats_mom(gamma(1,:),riskAdjGamma)
 
 %Plot results
 plotGamma_mom(gamma(1,:),riskAdjGamma,1)
-
-
-
+```
+![Screenshot](ols.png)
+```matlab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Regression Two - GLS %%%%%%%%
 gammaTwo=[]; k=1;
