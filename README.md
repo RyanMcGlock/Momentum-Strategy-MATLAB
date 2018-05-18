@@ -47,7 +47,10 @@ gammaStats_mom(gamma(1,:),riskAdjGamma)
 %Plot results
 plotGamma_mom(gamma(1,:),riskAdjGamma,1)
 ```
-![Screenshot](ols.png)
+<p align="center">
+  <img src="RyanMcGlock/Momentum-Strategy-MATLAB-/ols.jpg" width="350"/>
+  <img src="RyanMcGlock/Momentum-Strategy-MATLAB-/ols.jpg" width="350"/>
+</p>
 ```matlab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Regression Two - GLS %%%%%%%%
