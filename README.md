@@ -7,12 +7,8 @@
 
 ```matlab
 %Momemtum Strategy Analysis
-%Three Types of fama-MacBeth regression used
-%All functions used are attached, but also included at the bottom of this
-%file for was a viewing
-%Note I have 3 separate scripts for each regression for readability purposes
-%could easily put it all in one (more efficient,not calling certain
-%functions 3 times)
+%Note I have 3 separate scripts for each regression attached (OLS,GLS,shrink)
+%could easily put it all in one (more efficient,not calling certain functions 3 times)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%  Regression One - OLS  %%%%%%
