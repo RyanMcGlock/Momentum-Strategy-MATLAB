@@ -1,5 +1,6 @@
 # Momentum-Strategy-MATLAB-
 ##### Analysis of risk adjusted momentum strategy
+```matlab
 %PLEASE SEE Quant_MomentumReport FOR RESULTS AND ANALYSIS
 
 %Momemtum Strategy Analysis
@@ -255,3 +256,5 @@ function Statistics = gammaStats_mom(gamma, RiskAdjGamma)
     T.Properties.VariableNames = {'GammaType','tstat','Mean', 'StandardDev', ...
         'Skewness','Kurtosis', 'MaxDrawdown', 'SharpeRatio'}
 end
+
+```
